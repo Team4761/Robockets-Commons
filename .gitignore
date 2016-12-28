@@ -6,3 +6,7 @@
 *.jar
 *.class
 /build/
+
+*.ipr
+*.iws
+*.iml
