@@ -11,3 +11,5 @@
 *.iws
 *.iml
 .idea/
+
+!gradle/wrapper/*.jar
