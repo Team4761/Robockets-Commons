@@ -3,14 +3,7 @@ package org.robockets.commons.xbox;
 /**
  * @author Simon Andrews
  */
-public enum XboxControllerPort {
-    LEFT_THUMBSTICK_X(0),
-    LEFT_THUMBSTICK_Y(1),
-    LEFT_TRIGGER(2),
-    RIGHT_TRIGGER(3),
-    RIGHT_THUMBSTICK_X(4),
-    RIGHT_THUMBSTICK_Y(5),
-
+public enum XboxControllerButton {
     A_BUTTON(1),
     B_BUTTON(2),
     X_BUTTON(3),
@@ -24,7 +17,7 @@ public enum XboxControllerPort {
 
     public final int port;
 
-    XboxControllerPort(int port) {
+    XboxControllerButton(int port) {
         this.port = port;
     }
 }
