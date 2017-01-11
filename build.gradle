@@ -4,9 +4,13 @@ apply plugin: 'idea'
 
 repositories {
     jcenter()
+    maven {
+        url "http://first.wpi.edu/FRC/roborio/maven/release/"
+    }
 }
 
 dependencies {
     compile 'org.slf4j:slf4j-api:1.7.21'
+    compile 'edu.wpi.first.wpilibj:wpilibJavaFinal:2016.5.1'
     testCompile 'junit:junit:4.12'
 }
