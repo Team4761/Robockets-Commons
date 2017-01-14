@@ -1,7 +1,10 @@
 package org.robockets.commons.xbox;
 
 /**
+ * Button on an Xbox controller. Basically any input that outputs a true or
+ * false.
  * @author Simon Andrews
+ * @since 0.0.2
  */
 public enum XboxControllerButton {
     A_BUTTON(1),
