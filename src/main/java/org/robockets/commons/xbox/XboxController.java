@@ -6,7 +6,7 @@ import edu.wpi.first.wpilibj.Joystick;
  * Class for working with Xbox controllers. Uses WPILib's Joystick class as a
  * base. This class is mostly for making code prettier.
  * @author Simon Andrews
- * @since 0.0.2
+ * @since 0.2.0
  */
 public class XboxController extends Joystick {
     public XboxController(int port) {

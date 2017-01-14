@@ -4,7 +4,7 @@ package org.robockets.commons.xbox;
  * Axis on an Xbox controller. Basically any input where the output is a range
  * instead of a yes/no.
  * @author Simon Andrews
- * @since 0.0.2
+ * @since 0.2.0
  */
 public enum XboxControllerAxis {
     LEFT_THUMBSTICK_X(0),
