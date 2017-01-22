@@ -8,7 +8,8 @@ import java.time.Instant;
 public class Tests_RateTracker {
 
     @Test public void testConstruction() {
-        RateTracker tracker = new RateTracker();
+        @SuppressWarnings("unused")
+		RateTracker tracker = new RateTracker();
     }
 
     @Test public void testStart() {

@@ -1,7 +1,6 @@
 package org.robockets.commons.math;
 
 import static org.junit.Assert.*;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class Test_MovingAverageCalculator {
