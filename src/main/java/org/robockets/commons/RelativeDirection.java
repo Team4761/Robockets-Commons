@@ -58,4 +58,21 @@ public class RelativeDirection {
 		DOWN,
 	}
 
+	/**
+	* Represents a relative direction in 
+	* @author Jake Backer
+	* @since 2.1.0
+	*/
+	public enum Malone { // I need a name for this...
+		/**
+		* Relative in direction opposed to out.
+		*/
+		IN,
+
+		/**
+		* Relative out direction opposed to in.
+		*/
+		OUT,
+	}
+
 }
