@@ -1,4 +1,4 @@
-package main.java.org.robockets.commons.modauto;
+package org.robockets.commons.modauto;
 
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.CommandGroup;

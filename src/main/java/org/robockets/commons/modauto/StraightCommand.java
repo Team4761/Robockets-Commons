@@ -1,4 +1,4 @@
-package main.java.org.robockets.commons.modauto;
+package org.robockets.commons.modauto;
 
 import edu.wpi.first.wpilibj.command.Command;
 
@@ -14,9 +14,12 @@ public abstract class StraightCommand extends Command {
 		this.distance = distance;
 	}
 
-	public static StraightCommand generate(double distance) {
-		
-	}
+	/**
+	 * User must override this with returning new instance of the command
+	 * @param distance
+	 * @return
+	 */
+	protected static StraightCommand generate(double distance){return null;}
 
 	@Override
 	protected void initialize() {
