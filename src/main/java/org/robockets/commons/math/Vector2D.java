@@ -30,13 +30,28 @@ public class Vector2D {
 	public static double getAngle(double xComponent, double yComponent) {
 		return Math.atan2(yComponent, xComponent);
 	}
-	
+
+	public void setComponents(double xComponent, double yComponent) {
+		this.xComponent = xComponent;
+		this.yComponent = yComponent;
+
+		magnitude = getMagnitude(xComponent, yComponent);
+		angle = getAngle(xComponent, yComponent);
+	}
+
 	public Vector2D add(Vector2D vec) {
 		double xComponent = this.getXComponent() + vec.getXComponent();
 		double yComponent = this.getYComponent() + vec.getYComponent();
 		double magnitude = getMagnitude(xComponent, yComponent);
 		double angle     = getAngle(xComponent, yComponent);
 		return new Vector2D(magnitude, angle);
+	}
+
+	public double dotProduct(Vector2D vec) {
+		double xProd = this.getXComponent() * vec.getXComponent();
+		double yProd = this.getYComponent() * vec.getYComponent();
+
+		return xProd + yProd;
 	}
 	
 	@Override

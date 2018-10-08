@@ -13,4 +13,16 @@ public class Test_Vector2D {
 		assertEquals(res.getMagnitude(), 5.83, 0.1);
 		assertEquals(Math.toDegrees(res.getAngle()), 104, 0.1);
 	}
+
+	@Test public void testDotProd() {
+		Vector2D vec1 = new Vector2D(0, 0);
+		vec1.setComponents(1, 2);
+
+		Vector2D vec2 = new Vector2D(0, 0);
+		vec2.setComponents(3, 4);
+
+		double res = vec1.dotProduct(vec2);
+
+		assertEquals(res, 11, 0.01);
+	}
 }
