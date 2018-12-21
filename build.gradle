@@ -11,5 +11,7 @@ repositories {
 
 dependencies {
     compile 'edu.wpi.first.wpilibj:wpilibJavaFinal:2016.5.1'
+    compile 'com.google.code.gson:gson:2.8.5'
+    compile group: 'org.apache.commons', name: 'commons-collections4', version: '4.2'
     testCompile 'junit:junit:4.12'
 }
